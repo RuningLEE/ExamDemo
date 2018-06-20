@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		08D9BDFD20DA8126001E596F /* ServeNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 08D9BDFC20DA8126001E596F /* ServeNode.m */; };
 		5A44DAF620D39E310094133C /* TaskInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A44DAF520D39E310094133C /* TaskInfo.m */; };
 		5ADB10C220CACAC7006DDD3E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADB10C120CACAC7006DDD3E /* main.m */; };
 		5ADB10CF20CACC42006DDD3E /* TestExamDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5ADB10CE20CACC42006DDD3E /* TestExamDemo.m */; };
@@ -36,6 +37,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		08D9BDFB20DA8126001E596F /* ServeNode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ServeNode.h; sourceTree = "<group>"; };
+		08D9BDFC20DA8126001E596F /* ServeNode.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ServeNode.m; sourceTree = "<group>"; };
 		5A44DAF420D39E310094133C /* TaskInfo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TaskInfo.h; sourceTree = "<group>"; };
 		5A44DAF520D39E310094133C /* TaskInfo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TaskInfo.m; sourceTree = "<group>"; };
 		5ADB10BE20CACAC7006DDD3E /* ExamDemo */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ExamDemo; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -112,6 +115,8 @@
 				5A44DAF520D39E310094133C /* TaskInfo.m */,
 				5ADB10D420CACCCE006DDD3E /* Schedule.h */,
 				5ADB10D520CACCCE006DDD3E /* Schedule.m */,
+				08D9BDFB20DA8126001E596F /* ServeNode.h */,
+				08D9BDFC20DA8126001E596F /* ServeNode.m */,
 				5ADB10CE20CACC42006DDD3E /* TestExamDemo.m */,
 				5ADB10D020CACC42006DDD3E /* Info.plist */,
 				5ADB10EB20CAD509006DDD3E /* ReturnCodeKeys.h */,
@@ -265,6 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5A44DAF620D39E310094133C /* TaskInfo.m in Sources */,
+				08D9BDFD20DA8126001E596F /* ServeNode.m in Sources */,
 				5ADB10EA20CAD07F006DDD3E /* Schedule.m in Sources */,
 				5ADB10CF20CACC42006DDD3E /* TestExamDemo.m in Sources */,
 			);
@@ -400,20 +406,26 @@
 		5ADB10C620CACAC7006DDD3E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CRMDXXJXD7;
+				DEVELOPMENT_TEAM = 77JQC7957G;
 				INFOPLIST_FILE = "$(SRCROOT)/TestExamDemo/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "-8";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
 		5ADB10C720CACAC7006DDD3E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = CRMDXXJXD7;
+				DEVELOPMENT_TEAM = 77JQC7957G;
 				INFOPLIST_FILE = "$(SRCROOT)/TestExamDemo/Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "-8";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};
@@ -422,7 +434,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = CRMDXXJXD7;
+				DEVELOPMENT_TEAM = 77JQC7957G;
 				INFOPLIST_FILE = TestExamDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cmread.exam.TestExamDemo;
@@ -435,7 +447,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = CRMDXXJXD7;
+				DEVELOPMENT_TEAM = 77JQC7957G;
 				INFOPLIST_FILE = TestExamDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cmread.exam.TestExamDemo;
@@ -448,7 +460,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = CRMDXXJXD7;
+				DEVELOPMENT_TEAM = 77JQC7957G;
 				INFOPLIST_FILE = TestDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cmread.exam.TestDemo;
@@ -461,7 +473,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = CRMDXXJXD7;
+				DEVELOPMENT_TEAM = 77JQC7957G;
 				INFOPLIST_FILE = TestDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.cmread.exam.TestDemo;
